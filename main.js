@@ -1,3 +1,4 @@
+var button = document.getElementById('button')
 function get(url) {
     let request = new XMLHttpRequest()
     request.open("GET", url, false)
